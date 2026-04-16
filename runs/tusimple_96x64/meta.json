@@ -1,0 +1,32 @@
+{
+  "params": 24961,
+  "train_samples": 3251,
+  "val_samples": 375,
+  "device": "cpu",
+  "config": {
+    "train_manifest": "prepared_data/manifests/tusimple_train.jsonl",
+    "val_manifest": "prepared_data/manifests/tusimple_val.jsonl",
+    "save_dir": "runs/tusimple_96x64",
+    "epochs": 80,
+    "batch_size": 16,
+    "num_workers": 4,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "input_width": 96,
+    "input_height": 64,
+    "input_channels": 1,
+    "width_mult": 0.75,
+    "aux_drivable": false,
+    "roi_top_ratio": 0.575,
+    "roi_jitter": 0.04,
+    "amp": true,
+    "drivable_loss_weight": 0.25,
+    "seed": 42,
+    "resume": ""
+  },
+  "effective_model_config": {
+    "input_channels": 1,
+    "width_mult": 0.75,
+    "aux_drivable": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "train": 3251,
+  "val": 375,
+  "label_files": [
+    "C:\\Datasets\\TUSimple\\label_data_0313.json",
+    "C:\\Datasets\\TUSimple\\label_data_0531.json",
+    "C:\\Datasets\\TUSimple\\label_data_0601.json",
+    "C:\\Datasets\\TUSimple\\llamas\\labels\\train\\data1\\label_data_0313.json",
+    "C:\\Datasets\\TUSimple\\llamas\\labels\\train\\data1\\label_data_0531.json",
+    "C:\\Datasets\\TUSimple\\llamas\\labels\\train\\data1\\label_data_0601.json",
+    "C:\\Datasets\\TUSimple\\train_set\\label_data_0313.json",
+    "C:\\Datasets\\TUSimple\\train_set\\label_data_0531.json",
+    "C:\\Datasets\\TUSimple\\train_set\\label_data_0601.json"
+  ],
+  "skipped_missing_images": 0,
+  "val_ratio": 0.1
+}
