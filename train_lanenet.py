@@ -28,7 +28,7 @@ class TrainConfig:
     train_manifest: str
     val_manifest: str
     save_dir: str
-    epochs: int = 80
+    epochs: int = 70
     batch_size: int = 16
     num_workers: int = 4
     lr: float = 3e-4
